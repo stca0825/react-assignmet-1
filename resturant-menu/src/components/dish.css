@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("../assets/jason-leung-poI7DelFiVA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+}
+
+.dish-card {
+  background-color: rgba(126, 125, 125, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.dish-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  justify-content: center;
+}
+
+.dish-name {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.dish-description {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.dish-price {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.dish-category {
+  font-size: 0.9em;
+  color: #fcf9f9;
+}
